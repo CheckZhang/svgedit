@@ -312,6 +312,8 @@ hr {
   flex-wrap: wrap;
   align-items: flex-start;
   background-color: var(--main-bg-color);
+  position: relative;
+  left: -50px;
 }
 
 #tools_top>* {

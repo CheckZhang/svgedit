@@ -603,6 +603,7 @@ class EditorStartup {
       this.enableOrDisableClipboard()
     }.bind(this))
 
+    /*
     window.addEventListener('beforeunload', function (e) {
     // Suppress warning if page is empty
       if (undoMgr.getUndoStackSize() === 0) {
@@ -617,6 +618,7 @@ class EditorStartup {
       }
       return true
     }.bind(this))
+    */
 
     // Use HTML5 File API: http://www.w3.org/TR/FileAPI/
     // if browser has HTML5 File API support, then we will show the open menu item
